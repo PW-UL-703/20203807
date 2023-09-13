@@ -1,0 +1,61 @@
+nav {
+    width: 100%;
+    /* ancho de visualizacion es todo el
+    ancho disponible por eso 100% */
+    overflow: hidden;
+    /* cualquier cosa que salga de los lados
+    que lo oculte */
+    background-color: black;
+
+}
+
+nav > ul {
+    list-style-type: none;
+    /*quitar la viñeta a la lista
+    desordenada*/
+}
+
+nav > ul > li {
+    float:left;
+    /* elementos li a la izquierda*/
+}
+
+nav > ul > li > a {
+    /* todos los hiperenlaces tienen lo
+    siguien*/
+    color: white;
+    display: block;
+    /* posicionar en el ancho disponible*/
+    padding: 5px;
+    /*relleno: 5 px*/
+    border-color: red;
+    border-style: solid;
+    /* linea solida*/
+    border-width: 2px;;
+    border-radius: 10px;
+    /* borde con esquinas redondeadas*/
+
+}
+
+/* seudo clases cuando el campo del
+menu obtenga el foco cambiara el 
+color del borde  y letra*/
+nav ul a:focus {
+    color : red;
+    border-color: yellowgreen;
+                    
+}
+/*cuando ponga el cursor encima del
+menu obtenga el foco cambiara el 
+color del borde  y letra*/
+nav ul a:hover {
+    color : yellow;
+    border-color: yellowgreen;
+
+}
+
+
+
+
+
+

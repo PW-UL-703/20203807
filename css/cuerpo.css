@@ -1,0 +1,21 @@
+section {
+    float: left;
+    width: 60%;
+    /* del total de la ventana*/
+    margin: 5% 5%;
+    /* total 70%*/
+    /*superior- inferior  izq-derecha*/
+}
+
+aside {
+    float: left;
+    width: 20%;
+    margin: 5% 5%;
+    /* total 30%*/
+    background-color: aqua;
+/*suma=100% si no suma 100 es un problema*/
+}
+
+section > img {
+    float:left;
+}
